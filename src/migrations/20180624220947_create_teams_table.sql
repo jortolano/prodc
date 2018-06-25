@@ -1,6 +1,7 @@
-CREATE TABLE jornada (
+--Tabla equipo
+CREATE TABLE teams (
   id int(11) auto_increment PRIMARY KEY,
-  nro_fecha int(4)
+  nombre_equipo VARCHAR(20),
   created_at DATETIME,
   updated_at DATETIME
 )ENGINE=InnoDB;
